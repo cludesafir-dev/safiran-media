@@ -29,3 +29,9 @@ Inspiration only: never copy or re-publish the reference videos.
 ## 4. Publishing safety
 - `queue/*.json` items are published only when `approved_by == "Amirhossein"`. Never write that approval on his behalf.
 - Never push to `main` or open a PR unless asked; work on the session branch.
+
+## 5. Where finished videos are saved (owner's rule)
+- Every finished video must ALSO be saved on the owner's computer in the **Video folder on drive D** (`D:\Video`), and its
+  file names / sub-folders / metadata must follow what is already in that folder (look at it first, match its conventions).
+- Claude can only write there when the owner's computer is connected to the session (Claude desktop app -> Settings -> Claude Code ->
+  Remote Control -> add the folder `D:\Video`). If it is not connected, say so and hand the files over via chat / zip instead.
